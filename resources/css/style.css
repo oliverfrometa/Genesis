@@ -38,6 +38,10 @@ ul {
   padding: 0;
 }
 
+u {
+  height: 1px;
+}
+
 .lead {
   font-size: 16px;
 }
@@ -56,6 +60,12 @@ ul {
 .btn-outlined-pill:hover {
   background: #FAFAFA;
   color: #000;
+}
+
+@media only screen and (max-width: 1080px) {
+  .btn-outlined-pill {
+    font-size: 14px;
+  }
 }
 
 .navbar {
