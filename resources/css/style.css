@@ -274,6 +274,7 @@ u {
 
 @media only screen and (max-width: 1080px) {
   .footer-container {
+    height: 100%;
     padding: 25px 35px;
   }
 
