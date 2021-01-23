@@ -240,8 +240,8 @@ ul {
   background-color: #090909;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .footer-container-left {
@@ -249,7 +249,6 @@ ul {
   height: 100%;
   width: 50%;
   padding-left: 10%;
-
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -258,7 +257,8 @@ ul {
   text-align: left;
   height: 100%;
   width: 50%;
-  padding-right: 10%;  justify-content: flex-start;
+  padding-right: 10%;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
